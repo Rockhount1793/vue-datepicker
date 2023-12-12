@@ -6,13 +6,7 @@
   "author": "Joffrey Berrier <joffrey.berrier@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "cd ./example && npm run dev",
-    "build": "vite build",
-    "build:library": "vite build",
-    "preview": "vite preview",
-    "test": "vitest --environment jsdom",
-    "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
+    "dev": "npm run dev"
   },
   "type": "module",
   "main": "./dist/vue-calendar-3.umd.cjs",
@@ -35,8 +29,6 @@
     "vue": "^3.2.37"
   },
   "devDependencies": {
-    "@rushstack/eslint-patch": "^1.5.1",
-    "@types/jsdom": "^21.1.4",
     "@types/node": "^20.8.7",
     "@vitejs/plugin-vue": "^4.4.0",
     "@vue/eslint-config-prettier": "^8.0.0",
@@ -44,14 +36,9 @@
     "@vue/test-utils": "^2.4.1",
     "@vue/tsconfig": "^0.4.0",
     "autoprefixer": "^10.4.16",
-    "c8": "^8.0.1",
     "dayjs": "^1.11.10",
-    "eslint": "^8.52.0",
     "eslint-plugin-vue": "^9.17.0",
-    "jsdom": "^22.1.0",
-    "npm-run-all": "^4.1.5",
     "postcss": "^8.4.31",
-    "prettier": "^3.0.3",
     "tailwindcss": "^3.3.3",
     "typescript": "~5.2.2",
     "vite": "^4.5.0",

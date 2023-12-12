@@ -192,7 +192,7 @@ const pushBookingDates = () => {
       format-date="DD-MM-YYYY"
       has-footer
       has-header
-      locale="fr"
+      locale="en"
     >
       <template #header>
         <div class="flex items-center">
